@@ -26,6 +26,13 @@ Your function should return length = 5, with the first five elements of nums bei
 It doesn't matter what values are set beyond the returned length.
 ```
 
+### Thought:
+1. Key point: Sorted array, in-place O(1) memory
+2. Two pointers, i indexed the current length, j traversed for next non-duplicated number
+3. One variable (tmp) to store last non-duplicated number
+3. Time complexity: O(N)
+4. Space complexity: O(1)
+
 ### Code:
 ```java
 class Solution {
